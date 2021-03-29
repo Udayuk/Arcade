@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <a href="../homepage.html"><img src="../home.png"></a>
+
+<div class="row">
+  <div class="column">
+    <p>Source</p>
+    X-Coordinate <input type="text" id="source_x"><br><br>
+    Y-Coordinate <input type="text" id="source_y"><br> <br>   
+  </div>
+
+  <div class="column2">
+    <p>The Path Finder</p>
+    <canvas id='container' width='960' height='600' ></canvas><br\><br>
+    <button id="input_" onclick="values_of_src_dest()">Submit Coordinates</button><br\><br><br>
+	  <button onclick="solveMaze()">Solve Maze</button>
+	  <button onclick='window.location.reload();'>Reset</button>
+	  <p id="outcome"></p>
+	  <p id="demo"></p>
+  </div>
+
+  <div class="column">
+    <p>Destination</p>
+	  X-Coordinate <input type="text" id="dest_x"><br><br>
+	  Y-Coordinate <input type="text" id="dest_y"><br><br>
+  </div>
+</div>
+<script src='pathtracer.js'></script>
+
+</body>
+</html>
