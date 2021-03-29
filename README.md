@@ -62,7 +62,7 @@ Preview of the game
 ## * Prerequisites
 
 * An active internet connection
-* Basic understanding of webdevelopment
+* Basic understanding of Web-Development and its tools
 * HTML, CSS, Javascript
 
 Note: This page will be updated in the future with a playable link when deployed soon! :D
